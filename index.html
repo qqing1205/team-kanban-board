@@ -2,10 +2,14 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+  feature/add-delete-task
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  main
     <title>团队任务看板</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+ feature/add-delete-task
     <h1>任务看板</h1>
     <div class="add-task">
         <input type="text" id="taskInput" placeholder="输入任务">
@@ -14,5 +18,22 @@
     <div id="taskBoard" class="task-board"></div>
 
     <script src="script.js"></script>
+
+    <h1>团队任务看板</h1>
+    <div class="board">
+        <div class="column">
+            <h2>待办</h2>
+            <div class="task-card">任务1：完成页面布局</div>
+            <div class="task-card">任务2：准备素材</div>
+        </div>
+        <div class="column">
+            <h2>进行中</h2>
+            <div class="task-card">任务3：编写新增任务JS</div>
+        </div>
+        <div class="column">
+            <h2>已完成</h2>
+        </div>
+    </div>
+ main
 </body>
 </html>

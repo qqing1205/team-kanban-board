@@ -1,3 +1,4 @@
+ feature/add-delete-task
 .task-card {
     padding:10px;
     margin:8px 0;
@@ -16,4 +17,40 @@
 #addBtn {
     padding:6px 12px;
     margin-left:8px;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 30px;
+    background-color: #f0f2f5;
+    font-family: "Microsoft Yahei", sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.board {
+    display: flex;
+    gap: 20px;
+}
+.column {
+    width: 300px;
+    background: #ebecf0;
+    padding: 15px;
+    border-radius: 8px;
+}
+.column h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.task-card {
+    background: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px #ccc;
+ main
 }
