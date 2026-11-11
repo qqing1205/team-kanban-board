@@ -1,0 +1,19 @@
+.task-card {
+    padding:10px;
+    margin:8px 0;
+    background:#f0f0f0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-task {
+    margin: 20px 0;
+}
+#taskInput {
+    padding: 6px;
+    width:250px;
+}
+#addBtn {
+    padding:6px 12px;
+    margin-left:8px;
+}
